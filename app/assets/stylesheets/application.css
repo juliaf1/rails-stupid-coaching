@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@900&family=Open+Sans&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Catamaran', sans-serif;
+}
+
+.answer {
+  background-color: #FDEFCD;
+  border-left: 5px solid rgb(200, 200, 200);
+  padding: 10px 10px 2px;
+  margin: 10px 0;
+}
+
+.question {
+  border-left: 5px solid rgb(200, 200, 200);
+  padding: 10px 10px 2px;
+  margin: 10px 0;
+}
